@@ -9,6 +9,13 @@
     height: 46px;
     background-color: rgba(241, 243, 247, 1);
 }
+.a-line_select {
+    display: inline-block;
+    border: none;
+    margin-top: 18px;
+    margin-left: 316px;
+    background-color: rgba(241, 243, 247, 1);
+}
 
 /* Стили для header 2 линия */
 
