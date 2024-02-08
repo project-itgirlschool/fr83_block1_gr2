@@ -1,6 +1,14 @@
 /* Стили для всего документа html, body */
 
 /* Стили для header 1 линия*/
+.header__a-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 46px;
+    background-color: rgba(241, 243, 247, 1);
+}
 
 /* Стили для header 2 линия */
 
