@@ -16,6 +16,16 @@
     margin-left: 316px;
     background-color: rgba(241, 243, 247, 1);
 }
+select{
+    width: 101px;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(51, 193, 204, 1);
+}
+
 
 /* Стили для header 2 линия */
 
