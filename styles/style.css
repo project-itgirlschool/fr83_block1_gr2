@@ -9,21 +9,24 @@
     height: 46px;
     background-color: rgba(241, 243, 247, 1);
 }
-.a-line_select {
+.a-line__select {
     display: inline-block;
     border: none;
     margin-top: 18px;
     margin-left: 316px;
     background-color: rgba(241, 243, 247, 1);
 }
-select{
+select {
     width: 101px;
     height: 15px;
     border: none;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 400;
-    color: rgba(51, 193, 204, 1);
+    color: rgba(27, 29, 50, 1);
+}
+select:focus{
+    outline: none;
 }
 
 
