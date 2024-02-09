@@ -14,7 +14,6 @@
     border: none;
     margin-top: 18px;
     margin-left: 316px;
-    background-color: rgba(241, 243, 247, 1);
 }
 select {
     width: 101px;
@@ -24,6 +23,7 @@ select {
     font-size: 15px;
     font-weight: 400;
     color: rgba(27, 29, 50, 1);
+    background-color: rgba(241, 243, 247, 1);
 }
 select:focus{
     outline: none;
