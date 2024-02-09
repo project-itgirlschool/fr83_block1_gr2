@@ -57,6 +57,18 @@ width: 150px;
 .search__container:hover input#search{
     width: 150px;
 }
+/* Кнопка Интернет-магазин */
+.image-wrapper{
+    display: inline-block;
+    width: 220px;
+    height: 46px;
+    overflow: hidden;
+    margin-right: 315px;
+}
+.image-wrapper__img{
+    width: 100%;
+    height: auto;
+}
 
 
 
