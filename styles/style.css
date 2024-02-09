@@ -1,5 +1,7 @@
 /* Стили для всего документа html, body */
-
+body{
+    width: 1920px;
+}
 /* Стили для header 1 линия*/
 .header__a-line {
     display: flex;
@@ -30,9 +32,7 @@ select:focus{
 }
 /* Лупа */
 .search__container{
-    width: 200px;
-    vertical-align: middle;
-    white-space: nowrap;
+    width: 20px;
     position: relative;
 }
 .search__container input#search{
@@ -42,13 +42,14 @@ select:focus{
     border: none;
     font-size: 15px;
     color: rgba(51, 193, 204, 1);
-    padding-left: 15px;
+    padding-left: 50px;
 }
 .search__container .icon{
     position: absolute;
     top: 50%;
-    margin-left: 5px;
+    margin-right: 0px;
     z-index: 1;
+    margin-right: 13px;
 }
 .search__container input#search:focus, .search__container input#search:active {
 outline: none;
