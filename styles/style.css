@@ -28,9 +28,6 @@ select {
 select:focus{
     outline: none;
 }
-.search-form{
-    background-color: rgba(241, 243, 247, 1);
-}
 
 
 /* Стили для header 2 линия */
