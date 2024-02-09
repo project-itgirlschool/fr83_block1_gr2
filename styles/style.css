@@ -28,6 +28,36 @@ select {
 select:focus{
     outline: none;
 }
+/* Лупа */
+.search__container{
+    width: 200px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.search__container input#search{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(241, 243, 247, 1);
+    border: none;
+    font-size: 15px;
+    color: rgba(51, 193, 204, 1);
+    padding-left: 15px;
+}
+.search__container .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 5px;
+    z-index: 1;
+}
+.search__container input#search:focus, .search__container input#search:active {
+outline: none;
+width: 150px;
+}
+.search__container:hover input#search{
+    width: 150px;
+}
+
 
 
 /* Стили для header 2 линия */
