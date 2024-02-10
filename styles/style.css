@@ -1,77 +1,76 @@
 /* Стили для всего документа html, body */
-body{
-    width: 1920px;
+body {
+  width: 1920px;
 }
 /* Стили для header 1 линия*/
 .header__a-line {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100vw;
-    height: 46px;
-    background-color: rgba(241, 243, 247, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 46px;
+  background-color: rgba(241, 243, 247, 1);
 }
 .a-line__select {
-    display: inline-block;
-    border: none;
-    margin-top: 18px;
-    margin-left: 316px;
+  display: inline-block;
+  border: none;
+  margin-top: 18px;
+  margin-left: 316px;
 }
 select {
-    width: 101px;
-    height: 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgba(27, 29, 50, 1);
-    background-color: rgba(241, 243, 247, 1);
+  width: 101px;
+  height: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(27, 29, 50, 1);
+  background-color: rgba(241, 243, 247, 1);
 }
-select:focus{
-    outline: none;
+select:focus {
+  outline: none;
 }
 /* Лупа */
-.search__container{
-    width: 20px;
-    position: relative;
+.search__container {
+  width: 20px;
+  position: relative;
 }
-.search__container input#search{
-    width: 20px;
-    height: 20px;
-    background-color: rgba(241, 243, 247, 1);
-    border: none;
-    font-size: 15px;
-    color: rgba(51, 193, 204, 1);
-    padding-left: 50px;
+.search__container input#search {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(241, 243, 247, 1);
+  border: none;
+  font-size: 15px;
+  color: rgba(51, 193, 204, 1);
+  padding-left: 50px;
 }
-.search__container .icon{
-    position: absolute;
-    top: 50%;
-    margin-right: 0px;
-    z-index: 1;
-    margin-right: 13px;
+.search__container .icon {
+  position: absolute;
+  top: 50%;
+  margin-right: 0px;
+  z-index: 1;
+  margin-right: 13px;
 }
-.search__container input#search:focus, .search__container input#search:active {
-outline: none;
-width: 150px;
+.search__container input#search:focus,
+.search__container input#search:active {
+  outline: none;
+  width: 150px;
 }
-.search__container:hover input#search{
-    width: 150px;
+.search__container:hover input#search {
+  width: 150px;
 }
 /* Кнопка Интернет-магазин */
-.image-wrapper{
-    display: inline-block;
-    width: 220px;
-    height: 46px;
-    overflow: hidden;
-    margin-right: 315px;
+.image-wrapper {
+  display: inline-block;
+  width: 220px;
+  height: 46px;
+  overflow: hidden;
+  margin-right: 315px;
 }
-.image-wrapper__img{
-    width: 100%;
-    height: auto;
+.image-wrapper__img {
+  width: 100%;
+  height: auto;
 }
-
-
 
 /* Стили для header 2 линия */
 
@@ -79,31 +78,37 @@ width: 150px;
 
 /* Стили для main */
 
-/* Стили для main Центр зрения ДОКТОР ЛИНЗ */
+/* Стили для экрана 1 Центр зрения ДОКТОР ЛИНЗ */
 
-/* Стили для main Сервис клиники ДОКТОР ЛИНЗ */
+/* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 
-/* Стили для main С какими заболеваниями мы работаем */
+/* Стили для экрана 3 С какими заболеваниями мы работаем */
 
-/* Стили для main Наши врачи */
+/* Стили для экрана 4 Наши врачи */
+.screen_4 {
+  height: 780px;
+  background-image: url("./images/bg.svg");
+  background-size: cover;
+  background-position: center; /* центрирует изображение в контейнере */
+}
 
-/* Стили для main Запишитесь на прием 1 */
+/* Стили для экрана 5 Запишитесь на прием 1 */
 
-/* Стили для main О клинике */
+/* Стили для экрана 6 О клинике */
 
-/* Стили для main Лицензия */
+/* Стили для экрана 7 Лицензия */
 
-/* Стили для main Мы в рейтингах */
+/* Стили для экрана 8 Мы в рейтингах */
 
-/* Стили для main Отзывы*/
+/* Стили для экрана 9 Отзывы*/
 
-/* Стили для main Запишитесь на прием 2*/
+/* Стили для экрана 10 Запишитесь на прием 2*/
 
-/* Стили для main Ночные линзы */
+/* Стили для экрана 11 Ночные линзы */
 
-/* Стили для main Преимущества выбора ночных линз */
+/* Стили для экрана 12 Преимущества выбора ночных линз */
 
-/* Стили для main Где нас найти (на карте)*/
+/* Стили для экрана 13 Где нас найти (на карте)*/
 
 /* Стили для footer */
 
