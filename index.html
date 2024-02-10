@@ -12,16 +12,27 @@
       <!-- Первая линия Header -->
       <div class="header__a-line">
         <!-- Выпадающее меню 4 Клиники -->
-        <div class="a-line__select">
-          <select name="clinic" id="clinic">
-            <option value="clinic_choice disabled">4 Клиники</option>
-            <option value="clinic_1">
-              Новосибирск, ул. Сакко и Ванцетти 77
-            </option>
-            <option value="clinic_2">Новосибирск, ул. Крылова 63</option>
-            <option value="clinic_3">Новосибирск, ул. Степная 6</option>
-            <option value="clinic_4">Кемерово, ул. Тухачевского 19А</option>
-          </select>
+        <div class="a-line__dropdown-menu">
+          <button class="a-line__dropdown-button">
+            4 Клиники
+            <img
+              class="btn-checkbox"
+              src="assets/images/Group 14.svg"
+              alt="checkbox image"
+            />
+          </button>
+          <div class="a-line__dropdown-content">
+            <a class="link-dropdown" href="#"
+              >Новосибирск, ул. Крылова, д. 63</a
+            >
+            <a class="link-dropdown" href="#"
+              >Новосибирск, ул. Сакко и Ванцетти, д. 77</a
+            >
+            <a class="link-dropdown" href="#">Новосибирск, ул. Степная, д. 6</a>
+            <a class="link-dropdown" href="#"
+              >Кемерово, ул. Тухачевского, д. 19А</a
+            >
+          </div>
         </div>
         <!-- Поиск - лупа -->
         <div class="a-line__search">
