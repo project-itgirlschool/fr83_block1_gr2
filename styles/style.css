@@ -113,12 +113,125 @@ body {
 
 /* Стили для экрана 4 Наши врачи */
 .screen_4 {
-  height: 780px;
-  background-image: url("./images/bg.svg");
+  background-image: url("../assets/images/bg.svg");
   background-size: cover;
   background-position: center; /* центрирует изображение в контейнере */
+  height: 780px;
+  width: 100vw;
 }
-
+.block1 {
+  text-align: center;
+  padding-top: 100px;
+  color: #2a2651;
+}
+.block2 {
+  text-align: center;
+  padding-top: 25px;
+  color: #757aa4;
+}
+.container1 {
+  display: flex;
+  height: 470px;
+  margin-top: 50px;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+}
+.doctor1 {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+  height: 90px;
+  background-color: white;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  justify-content: center;
+  border-radius: 6px;
+}
+.fio1 {
+  color: #33c1cc;
+  font-size: 15px;
+}
+.fio2 {
+  color: #1b1d32;
+  font-size: 13px;
+}
+.block3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.image_circle {
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/images/button_circle.svg");
+  background-size: cover;
+  border-radius: 30px;
+  border: none; /* Убираем границу кнопки */
+  cursor: pointer; /* Изменяем курсор при наведении на */
+}
+.image_circle2 {
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/images/button circle2.svg");
+  background-size: cover;
+  border-radius: 30px;
+  border: none; /* Убираем границу кнопки */
+  cursor: pointer; /* Изменяем курсор при наведении на */
+}
+.blok4 {
+  display: grid;
+  grid-template-areas:
+    "a a a d d d d d"
+    "a b b b b b b c"
+    "a b b b b b b c"
+    "d d d d d c c c";
+  gap: 10px; /* Опциональный зазор между блоками */
+  width: 875px;
+  height: 470px;
+  margin-top: 40px;
+}
+.rect1 {
+  grid-area: a; /* Размещение блока 1 в области "a" */
+  border-radius: 10px;
+}
+.container2 {
+  display: flex;
+  width: 850px;
+  height: 450px;
+  grid-area: b; /* Размещение блока 2 в области "b" */
+  background-color: white;
+  border-radius: 20px;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+}
+.rect2 {
+  grid-area: c; /* Размещение блока 3 в области "c" */
+  border-radius: 10px;
+}
+.foto {
+  margin-left: 50px;
+}
+.text {
+  margin-left: 40px;
+}
+.image-button1 {
+  width: 26px;
+  height: 26px;
+  background-image: url("../assets/images/play-button.svg"); /* Путь к изображению */
+  background-size: cover; /* Растягивает изображение, чтобы оно занимало всю площадь кнопки */
+  border: none; /* Убираем границу кнопки */
+  cursor: pointer; /* Изменяем курсор при наведении на кнопку */
+}
+.image-button4 {
+  width: 160px;
+  height: 46px;
+  background-image: url("../assets/images/btn4_4.svg");
+  background-size: cover;
+  border: none; /* Убираем границу кнопки */
+  cursor: pointer; /* Изменяем курсор при наведении на кнопку */
+}
 /* Стили для экрана 5 Запишитесь на прием 1 */
 
 /* Стили для экрана 6 О клинике */
