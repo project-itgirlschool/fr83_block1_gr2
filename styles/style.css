@@ -1,7 +1,14 @@
 /* Стили для всего документа html, body */
 body {
   width: 100%;
+  font-family: 'Muller Regular';
 }
+
+@font-face {
+  font-family: "Muller Regular";
+  src: url("/fr83_block1_gr2/assets/fonts/Muller\ Regular/Muller Regular.ttf") format("truetype");
+  }
+
 /* Стили для header 1 линия*/
 .header__a-line {
   display: flex;
@@ -154,6 +161,45 @@ body {
 }
 
 /* Стили для header 3 линия menu */
+nav.primary-navigation{
+  margin: 0 auto;
+  display: block;
+  padding: 0 0 0 0;
+  text-align: center;
+  font-size: 16px;
+  @font-face {
+    font-family: "Muller regular";
+    src: url;
+  };
+}
+
+nav.primary-navigation ul li{
+  list-style: none;
+  margin: 0 0;
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav.primary-navigation li a {
+  color: black;
+}
+
+nav.primary-navigation ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding-left: 0;
+  left: 0;
+  display: none;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* Стили для main */
 
@@ -227,12 +273,22 @@ body {
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 
 /* Стили для экрана 3 С какими заболеваниями мы работаем */
+.screen_3_image_info{
+  background-image: url(/fr83_block1_gr2/assets/images/Глаз.png);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center; /* центрирует изображение в контейнере */
+  height: 1000px;
+  width: 100vw;
+  top: 1713px;
+}
 
 /* Стили для экрана 4 Наши врачи */
 .screen_4 {
   height: 780px;
   background-image: url("./images/bg.svg");
   background-size: cover;
+  object-fit: cover;
   background-position: center; /* центрирует изображение в контейнере */
 }
 
