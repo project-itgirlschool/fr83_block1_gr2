@@ -124,6 +124,15 @@ body {
   background-position: top 30px left 733px; /* позиционируем фоновое изображение */
   background-repeat: no-repeat; /* убираем повторение фото */
 }
+/* Кнопка slider */
+.screen_1__image-wrapper {
+  display: inline-block;
+  width: 28px;
+  height: 14px;
+  overflow: hidden;
+  margin-left: 68px;
+  margin-top: 276px;
+}
 
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 
