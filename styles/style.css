@@ -133,6 +133,10 @@ body {
   margin-left: 68px;
   margin-top: 276px;
 }
+.image-wrapper__slider {
+  width: 100%;
+  height: auto;
+}
 
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 
