@@ -274,7 +274,7 @@ a {
 
 /* Стили для экрана 3 С какими заболеваниями мы работаем */
 .screen_3_image_info{
-  background-image: url(/fr83_block1_gr2/assets/images/Глаз.png);
+  background-image: url(../assets/images/Глаз.png);
   background-size: cover;
   object-fit: cover;
   background-position: center; /* центрирует изображение в контейнере */
