@@ -137,6 +137,15 @@ body {
   width: 100%;
   height: auto;
 }
+/* Основное содержание экрана 1 */
+.screen_1__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 230px;
+  margin-top: 117px;
+  color: rgba(255, 255, 255, 1);
+}
 
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 
