@@ -118,19 +118,28 @@ body {
 .screen_1__section {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   height: 607px;
   background-image: url(../assets/images/d37c4eec8a67424a0ac45572ee0ddc5f-1-removebg-preview\ 1.png);
   background-position: top 30px left 733px; /* позиционируем фоновое изображение */
   background-repeat: no-repeat; /* убираем повторение фото */
 }
-/* Кнопка slider */
-.screen_1__image-wrapper {
+/* Левый slider */
+.screen_1__image-wrapper_left {
   display: inline-block;
   width: 28px;
   height: 14px;
   overflow: hidden;
   margin-left: 68px;
+  margin-top: 276px;
+}
+.screen_1__image-wrapper_right {
+  display: inline-block;
+  width: 28px;
+  height: 14px;
+  overflow: hidden;
+  margin-right: 47px;
   margin-top: 276px;
 }
 .image-wrapper__slider {
@@ -145,6 +154,18 @@ body {
   margin-left: 230px;
   margin-top: 117px;
   color: rgba(255, 255, 255, 1);
+}
+.screen_1__wrapper_promo {
+  display: inline-block;
+  text-align: left;
+  width: 230px;
+  height: 342px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 117px;
+}
+.screen_1__item {
+  line-height: normal;
+  padding: 5px;
 }
 
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
