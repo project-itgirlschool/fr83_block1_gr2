@@ -87,14 +87,14 @@ body {
   width: 150px;
 }
 /* Кнопка Интернет-магазин */
-.image-wrapper {
+.a-line__image-wrapper {
   display: inline-block;
   width: 220px;
   height: 46px;
   overflow: hidden;
   margin-right: 315px;
 }
-.image-wrapper__img {
+.image-wrapper__btn {
   width: 100%;
   height: auto;
 }
@@ -106,6 +106,24 @@ body {
 /* Стили для main */
 
 /* Стили для экрана 1 Центр зрения ДОКТОР ЛИНЗ */
+.main__screen_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: linear-gradient(90deg, #0c669c 0%, #3bbac2 100%);
+  width: 100vw;
+  height: 637px;
+}
+.screen_1__section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 607px;
+  background-image: url(../assets/images/d37c4eec8a67424a0ac45572ee0ddc5f-1-removebg-preview\ 1.png);
+  background-position: top 30px left 733px; /* позиционируем фоновое изображение */
+  background-repeat: no-repeat; /* убираем повторение фото */
+}
 
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 
