@@ -270,9 +270,13 @@ a {
 
 /* Стили для экрана 3 С какими заболеваниями мы работаем */
 .screen_3_image_info{
-  display: flex;
+  background-image: url(/fr83_block1_gr2/assets/images/Глаз.png);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center; /* центрирует изображение в контейнере */
+  height: 1000px;
   width: 100vw;
-  height: 100%;
+  top: 1713px;
 }
 
 /* Стили для экрана 4 Наши врачи */
