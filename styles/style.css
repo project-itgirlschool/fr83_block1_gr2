@@ -270,6 +270,7 @@ a {
 
 /* Стили для экрана 3 С какими заболеваниями мы работаем */
 .screen_3_image_info{
+  display: flex;
   width: 100vw;
   height: 100%;
 }
