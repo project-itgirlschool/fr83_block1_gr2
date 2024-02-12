@@ -295,6 +295,7 @@ a {
   width: 100vw;
 }
 .block1 {
+  font-size: 36px;
   text-align: center;
   padding-top: 100px;
   color: #2a2651;
@@ -311,7 +312,7 @@ a {
   justify-content: center; /* Центрирование по горизонтали */
   align-items: center; /* Центрирование по вертикали */
 }
-.doctor1 {
+.doctor {
   display: flex;
   align-items: center;
   width: 25vw;
@@ -322,12 +323,19 @@ a {
   justify-content: center;
   border-radius: 6px;
 }
+.doctor1 {
+  margin-left: 20px;
+}
 .fio1 {
   color: #33c1cc;
   font-size: 15px;
 }
 .fio2 {
   color: #1b1d32;
+  font-size: 15px;
+}
+.doctor2 {
+  color: #7e83ae;
   font-size: 13px;
 }
 .block3 {
@@ -391,6 +399,15 @@ a {
 .text {
   margin-left: 40px;
 }
+.fio3 {
+  color: #1b1d32;
+  font-size: 20px;
+  font-weight: bold;
+}
+.experience {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .image-button1 {
   width: 26px;
   height: 26px;
@@ -407,7 +424,59 @@ a {
   border: none; /* Убираем границу кнопки */
   cursor: pointer; /* Изменяем курсор при наведении на кнопку */
 }
+
 /* Стили для экрана 5 Запишитесь на прием 1 */
+.screen_5 {
+  display: flex;
+  background-image: url("../assets/images/bg_5.svg");
+  background-size: cover;
+  background-position: center; /* центрирует изображение в контейнере */
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center;
+  height: 526px;
+  width: 100vw;
+}
+.column_left {
+  width: 30%;
+  height: 307px;
+  margin-right: 200px;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center;
+}
+.zag {
+  font-size: 36px;
+  color: #ffffff;
+}
+.text1 {
+  font-size: 20px;
+  color: #ffffff;
+}
+.text2 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.form {
+  display: flex;
+  width: 40%;
+  height: 390px;
+  margin-left: 90px;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.form_internal {
+  width: 95%;
+  height: 90%;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image-button5 {
+}
 
 /* Стили для экрана 6 О клинике */
 
