@@ -1,13 +1,14 @@
 /* Стили для всего документа html, body */
 body {
   width: 100%;
-  font-family: 'Muller Regular';
+  font-family: "Muller Regular";
 }
 
 @font-face {
   font-family: "Muller Regular";
-  src: url("/fr83_block1_gr2/assets/fonts/Muller\ Regular/Muller Regular.ttf") format("truetype");
-  }
+  src: url("/fr83_block1_gr2/assets/fonts/Muller\ Regular/Muller Regular.ttf")
+    format("truetype");
+}
 
 /* Стили для header 1 линия*/
 .header__a-line {
@@ -68,6 +69,7 @@ body {
 .search__container {
   width: 20px;
   position: relative;
+  margin-left: 1331px;
 }
 .search__container input#search {
   width: 20px;
@@ -161,7 +163,7 @@ body {
 }
 
 /* Стили для header 3 линия menu */
-nav.primary-navigation{
+nav.primary-navigation {
   margin: 0 auto;
   display: block;
   padding: 0 0 0 0;
@@ -169,11 +171,11 @@ nav.primary-navigation{
   @font-face {
     font-family: "Muller regular";
     src: url;
-  };
+  }
   font-size: 20px;
 }
 
-nav.primary-navigation ul li{
+nav.primary-navigation ul li {
   list-style: none;
   margin: 0 0;
   display: inline-block;
@@ -284,7 +286,7 @@ a {
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 
 /* Стили для экрана 3 С какими заболеваниями мы работаем */
-.screen_3_image_info{
+.screen_3_image_info {
   background-image: url(../assets/images/Глаз.png);
   background-size: cover;
   object-fit: cover;
