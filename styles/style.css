@@ -197,6 +197,17 @@ nav.primary-navigation ul li ul {
   background: white;
 }
 
+nav.primary-navigation ul li:hover > ul,
+nav.primary-navigation ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 450px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #ccc;
+}
+
 a {
   text-decoration: none;
 }
