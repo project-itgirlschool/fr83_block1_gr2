@@ -193,25 +193,25 @@
           <div class="block3">
             <button class="image_circle"></button>
 
-            <div class="doctor1">
+            <div class="doctor">
               <img src="./assets/images/Ellipse 10.svg" alt="foto avatar" />
-              <div>
+              <div class="doctor1">
                 <div class="fio1">Ламбина Татьяна Александровна</div>
-                <div class="">Врач-офтальмолог</div>
+                <div class="doctor2">Врач-офтальмолог</div>
               </div>
             </div>
-            <div class="doctor1">
+            <div class="doctor">
               <img src="./assets/images/Ellipse 10.svg" alt="foto avatar" />
-              <div>
+              <div class="doctor1">
                 <div class="fio2">Ламбина Татьяна Александровна</div>
-                <div class="">Врач-офтальмолог</div>
+                <div class="doctor2">Врач-офтальмолог</div>
               </div>
             </div>
-            <div class="doctor1">
+            <div class="doctor">
               <img src="./assets/images/Ellipse 10.svg" alt="foto avatar" />
-              <div>
+              <div class="doctor1">
                 <div class="fio2">Ламбина Татьяна Александровна</div>
-                <div class="">Врач-офтальмолог</div>
+                <div class="doctor2">Врач-офтальмолог</div>
               </div>
             </div>
 
@@ -220,9 +220,12 @@
 
           <!-- Правый блок -->
           <div class="blok4">
+            <!-- Квадрат верхний 
             <div class="rect1">
               <img src="./assets/images/Rectangle 213.svg" alt="rect" />
             </div>
+          --> 
+            
             <div class="container2">
               <img
                 class="foto"
@@ -239,19 +242,26 @@
                 <img src="./assets/images/star1.svg" alt="star" />
                 <img src="./assets/images/star2.svg" alt="star" />
                 <div class="">Отзывы (15)</div>
-                <div class="">Видео-визитка</div>
-                <button class="image-button1"></button>
-                <div class="">
+                <div class="video-card">
+                  <div class="">Видео-визитка</div>
+                  <button class="image-button1"></button>
+                </div>
+                <div class="doctor2">
                   Врач-офтальмолог высшей категории, кандидат медицинских наук,
                   главный врач, основатель центра зрения «Доктор Линз»
                   (Новосибирск) и «Центра зрения доктора Нагорского» (Кемерово)
                 </div>
-                <button class="image-button4"></button>
-                <div>1/ 10</div>
+                <div class="number_card">
+                  <button class="image-button4"></button>
+                  <div>1/ 10</div>
+                </div>
+              
               </div>
-              <div class="rect2">
+              <!-- Квадрат верхний 
+            <div class="rect2">
                 <img src="./assets/images/Rectangle 213.svg" alt="rect" />
               </div>
+          --> 
             </div>
           </div>
         </div>
@@ -274,17 +284,34 @@
 
         <div class="form">
           <div class="form_internal">
-            <h2 class="">Записаться на прием</h2>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"></label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Эл. почта"
-              />
-            </div>
-            <button class="image-button5"></button>
+
+              <h2 class="make">Записаться на прием</h2>
+
+              <form class="form1" action="/submit" method="post">
+                <label class="form-label"></label>
+                <input class="form-control" placeholder="Имя" />
+              
+                <label class="form-label"></label>
+                <input class="form-control" placeholder="Телефон" />
+              
+                <label for="services"></label>
+                <select class="form-control1" name="services">
+                  <option value="service1">Услуга </option>
+                  <option value="service2">Ночные линзы</option>
+                  <option value="service3">Диагностика зрения</option>
+                  <option value="service3">Аппаратное лечение</option>
+                  <option value="service3">Доставка</option>
+                  <option value="service3">Офтальмолог</option>
+                  <option value="service3">Детский офтальмолог</option>
+                </select>
+
+                <label for="date"></label>
+                <input class="form-control2" type="date" placeholder="02/05/21">
+                  
+                <button class="image-button5"></button>
+                <p class="politic">Отправляя форму, ты соглашаешься с <a href="https://www.example.com">политикой конфиденциальности</a>.</p>
+              </form>
+            
           </div>
         </div>
       </div>
@@ -293,7 +320,58 @@
       <div>Лицензия</div>
       <div>Мы в рейтингах</div>
       <div>Отзывы</div>
-      <div>Запишитесь на прием 2</div>
+
+
+      <div class="screen_10">
+        <div class="column_left">
+          <h2 class="zag">Запишитесь на прием</h2>
+          <div class="text1">
+            Заполните форму для записи на прием к офтальмологу. Наши
+            администраторы свяжутся с вами сразу как освободятся.
+          </div>
+          <div class="text2">
+            Благодаря нашему сервису и доброжелательному отношению вы не
+            потратите время зря и не простоите в очередях весь день. Мы
+            предварительно ответим на ваши вопросы, запишем на удобное для вас
+            время и напомним вам о записи заранее.
+          </div>
+        </div>
+
+        <div class="form">
+          <div class="form_internal">
+
+              <h2 class="make">Записаться на прием</h2>
+
+              <form class="form1" action="/submit" method="post">
+                <label class="form-label"></label>
+                <input class="form-control" placeholder="Имя" />
+              
+                <label class="form-label"></label>
+                <input class="form-control" placeholder="Телефон" />
+              
+                <label for="services"></label>
+                <select class="form-control1" name="services">
+                  <option value="service1">Услуга </option>
+                  <option value="service2">Ночные линзы</option>
+                  <option value="service3">Диагностика зрения</option>
+                  <option value="service3">Аппаратное лечение</option>
+                  <option value="service3">Доставка</option>
+                  <option value="service3">Офтальмолог</option>
+                  <option value="service3">Детский офтальмолог</option>
+                </select>
+
+                <label for="date"></label>
+                <input class="form-control2" type="date" placeholder="02/05/21">
+                  
+                <button class="image-button5"></button>
+                <p class="politic">Отправляя форму, ты соглашаешься с <a href="https://www.example.com">политикой конфиденциальности</a>.</p>
+              </form>
+            
+          </div>
+        </div>
+      </div>
+
+
       <div>Ночные линзы</div>
       <div>Преимущества выбора ночных линз</div>
       <div>Где нас найти (на карте)</div>
