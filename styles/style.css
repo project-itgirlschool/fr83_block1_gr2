@@ -595,6 +595,105 @@ p.docs__desc,
 }
 
 /* Стили для экрана 6 О клинике */
+.about_clinic_title{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+.about_clinic_nav{
+  display: grid;
+  grid-template-columns: 1fr 10% 10% 10% 1fr;
+  gap: 10px;
+  padding-top: 20px;
+}
+.video_button{
+  box-shadow: 0px 2px 10px 0px rgba(78, 127, 222, 0.2);
+  height: 40px;
+  width: 120px;
+  border-radius: 3px;
+  grid-column: 2;
+  text-align: center;
+  padding: 5px; 
+}
+.photo_button{
+  height: 40px;
+  width: 120px;
+  border-radius: 3px;
+  grid-column: 3;
+  text-align: center;
+  padding: 5px;
+  background: linear-gradient(90deg, #0C669C 0%, #3BBAC2 100%),
+  linear-gradient(0deg, #39B6C0, #39B6C0);
+  box-shadow: 0px 8px 10px 0px rgba(2, 142, 206, 0.32);
+  color: white;
+}
+.tour_button{
+  box-shadow: 0px 2px 10px 0px rgba(78, 127, 222, 0.2);
+  height: 40px;
+  width: 120px;
+  border-radius: 3px;
+  grid-column: 4;
+  text-align: center;
+  padding: 5px;
+}
+.about_clinic_main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  padding-top: 20px;
+}
+.about_clinic_main_text{
+  font-size: 1.3em;
+  color: rgba(109, 118, 140, 1);
+}
+.more_button{
+  height: 50px;
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px;
+  padding-top: 20px;
+  background: linear-gradient(90deg, #0C669C 0%, #3BBAC2 100%),
+  linear-gradient(0deg, #39B6C0, #39B6C0);
+  box-shadow: 0px 8px 10px 0px rgba(2, 142, 206, 0.32);
+  color: white;
+}
+.about_clinic_extrainfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  align-items: center;
+  font-size: 1.3em;
+  gap:10px;
+ 
+}
+.info1{
+  grid-column: 1;
+}
+.info2{
+  grid-column: 2;
+}
+.info3{
+  grid-column: 3;
+}
+.info4{
+  grid-column: 4;
+}
+.info_title{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+.info_icon{
+  padding-left: 150px;
+}
+.info_text{
+  text-align: center;
+  padding-top: 20px;
+  color: rgba(109, 118, 140, 1);
+  font-size: 1em;
+}
 
 /* Стили для экрана 7 Лицензия */
 
