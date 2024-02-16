@@ -214,43 +214,6 @@ a {
   text-decoration: none;
 }
 
-.three-line__dropdown-button{
-  width: 101px;
-  height: 15px;
-  background-color: rgba(241, 243, 247, 1);
-  color: rgba(27, 29, 50, 1);
-  font-size: 15px;
-  line-height: 24px;
-  border: none;
-  margin-top: 18px;
-  margin-left: 316px;
-  padding: 0;
-  box-sizing: border-box;
-}
-.three-line__dropdown-menu {
-  position: relative;
-  display: inline-block;
-}
-.three-line__dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgba(241, 243, 247, 1);
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-.three-line__dropdown-content a {
-  color: rgb(139, 144, 192);
-  padding: 10px 12px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Показать выпадающее меню при наведении курсора */
-.three-line__dropdown-menu:hover .three-line__dropdown-content {
-  display: block;
-}
-
 /* Стили для main */
 
 /* Стили для экрана 1 Центр зрения ДОКТОР ЛИНЗ */
