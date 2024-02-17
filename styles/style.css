@@ -1,107 +1,102 @@
 /* Стили для всего документа html, body */
+@font-face {
+  font-family: "Muller Regular";
+  src: url("../assets/fonts/Muller\ Regular.ttf") format("truetype");
+}
 body {
   width: 100%;
   font-family: "Muller Regular";
 }
-
-@font-face {
-  font-family: "Muller Regular";
-  src: url("/fr83_block1_gr2/assets/fonts/Muller\ Regular/Muller Regular.ttf")
-    format("truetype");
-}
-
 /* Стили для header 1 линия*/
 .header__a-line {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; /*Растягиваем по ширине контейнера*/
   width: 100vw;
-  height: 46px;
-  background-color: rgba(241, 243, 247, 1);
+  height: 2.9em; /*Переходим в относительные единицы измерения*/
+  background-color: rgba(241, 243, 247, 1); /*Задаем фоновый цвет линии*/
 }
 .a-line__dropdown-button {
-  width: 101px;
-  height: 15px;
+  width: 6.3em;
+  height: 1em;
   background-color: rgba(241, 243, 247, 1);
   color: rgba(27, 29, 50, 1);
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 1.5em;
   border: none;
-  margin-top: 18px;
-  margin-left: 316px;
+  margin-top: 1.1em;
+  margin-left: 19em;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /*Ужимаем кнопочку*/
 }
 .a-line__dropdown-menu {
-  position: relative;
+  position: relative; /*Делаем выпадающее меню*/
   display: inline-block;
 }
 .a-line__dropdown-content {
-  display: none;
-  position: absolute;
+  display: none; /*Скрываем выпадающее меню*/
+  position: absolute; /*Позиционируем*/
   background-color: rgba(241, 243, 247, 1);
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  min-width: 5em;
+  box-shadow: 0em 0.5em 1em 0em rgba(42, 38, 81, 1);
+  border-radius: 0.5em;
   z-index: 1;
 }
 .a-line__dropdown-content a {
   color: rgba(27, 29, 50, 1);
-  padding: 10px 12px;
-  text-decoration: none;
+  padding: 0.6em 0.6em;
+  text-decoration: none; /*Убираем настройки для текста*/
   display: block;
 }
-/* Изменение цвета выпадающих ссылок при наведении курсора */
 .a-line__dropdown-content a:hover {
-  background-color: #ddd;
+  /* Изменяем цвет выпадающих ссылок при наведении курсора */
+  background-color: rgba(57, 182, 192, 1);
 }
-
-/* Показать выпадающее меню при наведении курсора */
 .a-line__dropdown-menu:hover .a-line__dropdown-content {
-  display: block;
+  display: block; /* Показываем выпадающее меню при наведении курсора */
 }
 
-/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
 .a-line__dropdown-menu:hover .a-line__dropdown-button {
+  /* Изменяем цвет фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
   background-color: rgba(241, 243, 247, 1);
 }
 
 /* Лупа */
 .search__container {
-  width: 20px;
+  width: 1.2em;
   position: relative;
-  margin-left: 1331px;
+  margin-left: 83em; /*Нужно разобраться с позиционированием*/
 }
 .search__container input#search {
-  width: 20px;
-  height: 20px;
+  width: 1.2em;
+  height: 1.2em;
   background-color: rgba(241, 243, 247, 1);
-  border: none;
-  font-size: 15px;
+  border: none; /*Убираем границу для кнопки*/
+  font-size: 1em;
   color: rgba(51, 193, 204, 1);
-  padding-left: 50px;
+  padding-left: 3.1em;
 }
 .search__container .icon {
   position: absolute;
   top: 50%;
-  margin-right: 0px;
+  margin-right: 0;
   z-index: 1;
-  margin-right: 13px;
+  margin-right: 1em;
 }
 .search__container input#search:focus,
 .search__container input#search:active {
   outline: none;
-  width: 150px;
+  width: 9.4em;
 }
 .search__container:hover input#search {
-  width: 150px;
+  width: 9.4em;
 }
 /* Кнопка Интернет-магазин */
 .a-line__image-wrapper {
   display: inline-block;
-  width: 220px;
-  height: 46px;
-  overflow: hidden;
-  margin-right: 315px;
+  width: 13.7em;
+  height: 2.5em;
+  overflow: hidden; /*Скрываем содержимое, выходящее за пределы контейнера*/
+  margin-right: 19em;
 }
 .image-wrapper__btn {
   width: 100%;
@@ -219,75 +214,101 @@ a {
 /* Стили для экрана 1 Центр зрения ДОКТОР ЛИНЗ */
 .main__screen_1 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: flex-end;
   background: linear-gradient(90deg, #0c669c 0%, #3bbac2 100%);
-  width: 100vw;
-  height: 637px;
+  width: 100vw; /*Переходим на относительные единицы измерения*/
+  height: 39.8em;
 }
 .screen_1__section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 607px;
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 5%; /*Задаем сетку из четырех колонок*/
+  width: 98vw;
+  height: 39.8em;
   background-image: url(../assets/images/d37c4eec8a67424a0ac45572ee0ddc5f-1-removebg-preview\ 1.png);
-  background-position: top 30px left 733px; /* позиционируем фоновое изображение */
-  background-repeat: no-repeat; /* убираем повторение фото */
+  background-position: top 1.85em left 52em; /* Позиционируем фоновое изображение */
+  background-repeat: no-repeat; /* Убираем повторение фото */
 }
-/* Левый slider */
+.screen_1__slider {
+  display: flex;
+  align-items: center;
+  margin-left: 4.2em;
+  margin-right: 4.2em;
+}
 .screen_1__image-wrapper_left {
-  display: inline-block;
   width: 28px;
   height: 14px;
-  overflow: hidden;
-  margin-left: 68px;
-  margin-top: 276px;
 }
 .screen_1__image-wrapper_right {
-  display: inline-block;
   width: 28px;
   height: 14px;
-  overflow: hidden;
-  margin-right: 47px;
-  margin-top: 276px;
 }
-.image-wrapper__slider {
-  width: 100%;
-  height: auto;
-}
-/* Основное содержание экрана 1 */
 .screen_1__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 0px;
-  margin-top: 117px;
+  align-items: flex-start;
+  margin-left: 16em;
+  margin-top: 7.3em;
   color: rgba(255, 255, 255, 1);
+}
+.screen_1__title {
+  font-size: 3.5em;
+  font-weight: lighter;
+  margin: 0 0 0 0;
+}
+.screen_1__title_bold {
+  font-size: 3.5em;
+  font-weight: 31.2em;
+}
+.screen_1__text {
+  line-height: 1.6em;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  margin-top: 1.3em;
+}
+.screen_1___button {
+  width: 11.9em;
+  height: 2.9em;
+  background-color: rgba(57, 182, 192, 1);
+  border-radius: 0.4em;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1em;
+  border: none;
+  margin-top: 3.7em;
+  box-sizing: border-box;
+}
+.slider_img {
+  margin-left: 0.5em;
+  width: 1.3em;
+  height: 0.6em;
+}
+.screen_1__progress-bar {
+  margin-top: 7em;
 }
 .screen_1__wrapper_promo {
-  display: inline-block;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
   color: rgba(255, 255, 255, 1);
-  margin-top: 117px;
+  margin-top: 7.3em;
+  margin-left: 18em;
 }
 .screen_1__item {
-  line-height: 0vmin;
+  line-height: 2em;
+  padding: 1.5em;
 }
 .item__bg {
-  font-size: 46px;
-  font-weight: 500;
+  font-size: 3em;
+  font-weight: 31.2em;
 }
 .item__sm {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 25em;
 }
 /* Стили для экрана 2 Сервис клиники ДОКТОР ЛИНЗ */
 .main__screen_2 {
   display: flex;
   justify-content: center;
-  height: 868px;
+  height: 54em;
   width: 100vw;
 }
 .screen_2__section {
@@ -389,7 +410,6 @@ p.docs__desc,
   width: 360px;
   height: 70px;
 }
-
 /* Стили для экрана 3 С какими заболеваниями мы работаем */
 .screen_3_image_info {
   background-image: url(../assets/images/Глаз.png);
